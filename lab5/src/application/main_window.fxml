@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main_window_controller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="admin" layoutX="163.0" layoutY="161.0" mnemonicParsing="false" text="Администратор" />
+            <Button fx:id="guest" layoutX="396.0" layoutY="161.0" mnemonicParsing="false" text="Гость" />
+            <Text layoutX="32.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добрый день! Выберите режим под которым вы хотите зайти:" />
+            <Button fx:id="close_conn" layoutX="481.0" layoutY="327.0" mnemonicParsing="false" text="Завершить сеанс соединения" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="349.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.menu_window_controller">
+   <children>
+      <Button fx:id="create_bd" layoutX="90.0" layoutY="77.0" mnemonicParsing="false" text="Создание базы данных" />
+      <Button fx:id="open_bd" layoutX="90.0" layoutY="129.0" mnemonicParsing="false" text="Открытие базы данных" />
+      <Button fx:id="delete_bd" layoutX="90.0" layoutY="184.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="216.0" text="Удаление базы данных" />
+      <Button fx:id="close_conn" layoutX="149.0" layoutY="280.0" mnemonicParsing="false" text="Завершить соединение" />
+   </children>
+</AnchorPane>

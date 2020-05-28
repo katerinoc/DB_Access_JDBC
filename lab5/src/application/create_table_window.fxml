@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="335.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.create_table_controller">
+   <children>
+      <TextField fx:id="vendor_code" layoutX="98.0" layoutY="60.0" promptText="Артикул" />
+      <TextField fx:id="brand" layoutX="98.0" layoutY="129.0" promptText="Бренд" />
+      <TextField fx:id="price" layoutX="98.0" layoutY="198.0" promptText="Цена" />
+      <Text layoutX="35.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Параметры для записи:" />
+      <Button fx:id="OK" layoutX="171.0" layoutY="258.0" mnemonicParsing="false" text="OK" />
+   </children>
+</AnchorPane>

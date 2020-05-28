@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="604.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.main_table_controller">
+   <children>
+      <Button fx:id="delete_table" layoutX="635.0" layoutY="490.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="185.0" text="Очистить таблицу" />
+      <Button fx:id="delete_item" layoutX="756.0" layoutY="302.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="185.0" text="Удаление элемента" />
+      <Button fx:id="search_item" layoutX="756.0" layoutY="69.0" mnemonicParsing="false" text="Поиск" />
+      <Button fx:id="add_element" layoutX="503.0" layoutY="69.0" mnemonicParsing="false" text="Добавление элемента" />
+      <Button fx:id="update" layoutX="503.0" layoutY="302.0" mnemonicParsing="false" text="Обновление записи" />
+      <TextArea fx:id="text" layoutX="61.0" layoutY="69.0" prefHeight="510.0" prefWidth="389.0" />
+      <Text layoutX="69.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Артикул" />
+      <Text layoutX="228.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Марка" />
+      <Text layoutX="349.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена" />
+      <TextField fx:id="add_vendor_code" layoutX="503.0" layoutY="130.0" promptText="артикул" />
+      <TextField fx:id="add_brand" layoutX="503.0" layoutY="185.0" promptText="марка" />
+      <TextField fx:id="add_price" layoutX="503.0" layoutY="239.0" promptText="цена" />
+      <TextField fx:id="update_brand" layoutX="503.0" layoutY="358.0" promptText="марка" />
+      <TextField fx:id="update_price" layoutX="503.0" layoutY="416.0" promptText="новая цена" />
+      <TextField fx:id="search_brand" layoutX="756.0" layoutY="130.0" promptText="марка" />
+      <TextField fx:id="delete_brand" layoutX="756.0" layoutY="358.0" promptText="марка" />
+   </children>
+</AnchorPane>
